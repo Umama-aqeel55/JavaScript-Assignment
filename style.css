@@ -1,0 +1,217 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --black:#000;
+    --white:#fff;
+    --darkgrey: #b1aaaa;
+    --lightgreen:rgb(124, 252, 0);
+    --yellow: #dbe72b;
+    --grey: #bfbfbf;
+}
+
+.head{
+    background-color: var(--black);
+    color:var(--darkgrey);
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.number{
+    padding: 5px;
+}
+.btn{
+    background-color:var(--lightgreen);
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+}
+.nav-logo{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>ul>li{
+display: inline;
+padding: 5px;
+font-weight: 600;
+}
+.navbar>ul>li:hover{
+    color:var(--yellow);
+    border-bottom: 5px solid;
+    cursor: pointer;
+}
+.container{
+    text-align: center;
+    padding: 150px;
+    color: var(--white);
+    background-color: var(--lightgreen);
+    border-radius: 10px;
+   margin:auto;
+}
+span{
+    color: var(--lightgreen) ;
+}
+.btn2{
+    background-color:var(--yellow);
+    color:var(--black);
+    padding: 10px;
+    border: none;
+}
+.advantages-head{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.innovation{
+   
+    overflow: hidden;
+}
+.quality{
+ overflow: hidden;
+}
+.experience{
+   overflow: hidden;
+}
+.clients{
+   overflow: hidden;
+}
+.support{
+   overflow: hidden;;
+}
+
+
+.about{
+    background-color:var(--grey);
+}
+
+.about-head{
+    text-align: center; 
+    color:var(--black);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.about-main{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.about-para{
+    margin-top: 10px;
+    height: 280px;
+    padding: 15px;
+    text-align: center;
+}
+.btn3{
+    background-color:var(--yellow);
+    color:var(--black);
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-img{
+    height: 300px;
+    margin-top: 10px;
+ }
+.services-head{
+        text-align: center;
+        color:var(--black);
+        padding: 25px;
+ }
+ .service-parent{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+ .web{
+    color:var(--black);
+    background-color:var(--grey);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .grapic{
+    color:var(--black);
+    background-color:var(--grey);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .brand{
+    color:var(--black);
+    background-color:var(--grey);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .market{
+    color:var(--black);
+    background-color:var(--grey);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .link{
+    color:var(--lightgreen);
+ }
+.portfolio{
+    background-color:var(--black);
+    color:var(--white);
+}
+.head-portfolio{
+    text-align: center;
+    padding: 25px;
+}
+.list >ul>li{
+    display: inline ;
+    padding: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+#imp{
+    color: chocolate;
+}
+.conntainer2{
+    margin-top: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.credit{
+    color:var(--white);
+    background-color: var(--black);
+    text-align: center;
+    padding: 10px;
+}
